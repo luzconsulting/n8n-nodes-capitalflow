@@ -1,0 +1,75 @@
+{
+  "name": "@luzconsulting/n8n-nodes-capitalflow",
+  "version": "1.1.0",
+  "description": "Connect n8n with CapitalFlow",
+  "type": "commonjs",
+  "keywords": [
+    "n8n-community-node-package",
+    "capitalflow"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/luzconsulting/n8n-nodes-capitalflow#readme",
+  "author": {
+    "name": "LUZ Consulting",
+    "email": "kontakt@luz-consulting.de"
+  },
+  "bugs": {
+    "url": "https://github.com/luzconsulting/n8n-nodes-capitalflow/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luzconsulting/n8n-nodes-capitalflow.git"
+  },
+  "engines": {
+    "node": ">=20.15"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rimraf dist && tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lint:fix": "eslint nodes credentials package.json --fix",
+    "lint:node": "n8n-node lint",
+    "lint:all": "npm run lint && npm run lint:node",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.map",
+    "!dist/tsconfig.tsbuildinfo",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/CapitalFlowApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/CapitalFlow/CapitalFlow.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "^0.23.0",
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/parser": "^8.52.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-n8n-nodes-base": "^1.16.3",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "package-json-from-dist": "^1.0.1",
+    "prettier": "^3.8.1",
+    "release-it": "^19.2.4",
+    "rimraf": "^6.1.3",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
