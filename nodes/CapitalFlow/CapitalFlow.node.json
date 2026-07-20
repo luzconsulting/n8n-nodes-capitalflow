@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-base.capitalFlow",
+	"node": "@luzconsulting/n8n-nodes-capitalflow.capitalFlow",
 	"nodeVersion": "1.0.0",
 	"codexVersion": "1.0",
 	"categories": ["Finance"],

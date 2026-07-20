@@ -1,7 +1,7 @@
 # @luzconsulting/n8n-nodes-capitalflow
 
 ![n8n Community Node](https://img.shields.io/badge/n8n-community--node-FF6D5A)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Node.js](https://img.shields.io/badge/node-%3E%3D20.15-brightgreen)
 ![CapitalFlow API](https://img.shields.io/badge/CapitalFlow%20API-1.0.0-orange)
