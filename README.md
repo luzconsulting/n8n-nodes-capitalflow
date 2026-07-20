@@ -57,6 +57,19 @@ The node authenticates with an API key sent as a `cf-api-key` header against `ht
 
 Note: the API is rate-limited to 200 requests per minute per API key.
 
+## Usage example
+
+Create a new customer, then log a recurring income entry on their cashflow:
+
+1. Add a **CapitalFlow** node, select your **CapitalFlow API** credential. Set **Resource** to `Customer` and **Operation** to `Create`. Fill in **Firstname**, **Lastname**, and the other required fields.
+2. Add a second **CapitalFlow** node with **Resource** `Cashflow Income` and **Operation** `Create`. Set **Customer Name or ID** to the customer created in step 1, e.g.:
+   ```
+   {{ $node["CapitalFlow"].json.id }}
+   ```
+   Fill in **Description**, **Net Value** / **Gross Value**, and pick a **Payment Cycle**.
+
+Running the workflow creates the customer, then attaches the income entry to their cashflow — the customer ID from step 1 is passed into step 2 via an expression.
+
 ## Disclaimer
 
 This is an independent, community-maintained integration. It is not affiliated with, endorsed by, or sponsored by CapitalFlow. For account or API issues, contact CapitalFlow support directly; for issues with this node, use the [GitHub issue tracker](https://github.com/luzconsulting/n8n-nodes-capitalflow/issues).
