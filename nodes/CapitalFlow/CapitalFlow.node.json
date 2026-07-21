@@ -1,8 +1,8 @@
 {
 	"node": "@luzconsulting/n8n-nodes-capitalflow.capitalFlow",
-	"nodeVersion": "1.0.0",
+	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
-	"categories": ["Finance"],
+	"categories": ["Finance & Accounting"],
 	"resources": {
 		"credentialDocumentation": [
 			{

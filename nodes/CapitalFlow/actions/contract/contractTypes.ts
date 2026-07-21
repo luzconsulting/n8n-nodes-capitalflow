@@ -512,7 +512,7 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 				name: "loan_account_number",
 				type: "string",
 				default: "",
-				description: 'Darlehenskonto-Nr. / Kreditkonto-IBAN.',
+				description: 'Loan account number or credit account IBAN',
 			},
 			{
 				displayName: "Original Loan Amount",
@@ -1318,7 +1318,7 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 				type: "options",
 				options: [{ name: "Long-Term", value: "long" }, { name: "Medium-Term", value: "middle" }, { name: "Short-Term", value: "short" }],
 				default: "middle",
-				description: 'Laufzeit-Bucket. Wird bei typed Asset-Endpoints server-seitig aus dem Contract-Type abgeleitet — nur `/asset/other` akzeptiert einen Client-Wert.',
+				description: 'Duration bucket. For typed asset endpoints this is derived server-side from the contract type — only `/asset/other` accepts a client-supplied value.',
 			},
 			{
 				displayName: "Contract Number",
@@ -2671,7 +2671,7 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 				name: "max_travel_duration_days",
 				type: "number",
 				default: 0,
-				description: 'Max. Reisedauer (Tage).',
+				description: 'Maximum trip duration (days)',
 			},
 			{
 				displayName: "Repatriation Included",
@@ -2766,7 +2766,7 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 				name: "annual_deductible",
 				type: "number",
 				default: 0,
-				description: 'Selbstbeteiligung p.a. (€).',
+				description: 'Annual deductible (€)',
 			},
 			{
 				displayName: "Modules",
