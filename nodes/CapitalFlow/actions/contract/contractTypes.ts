@@ -57,8 +57,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetCheckingAccountFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -111,8 +111,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetSavingsBookFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -177,8 +177,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetCallMoneyAccountFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -238,8 +238,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetInvestmentAccountFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -292,8 +292,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetBuildingSavingsContractFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -393,8 +393,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetPropertyFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -591,8 +591,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetPrivatePensionFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -763,8 +763,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetRuerupFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -935,8 +935,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetRiesterFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1070,8 +1070,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetEmployerPensionSchemeFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1287,8 +1287,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "assetOtherFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1354,8 +1354,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeLiabilityInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1444,8 +1444,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeCarInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1589,8 +1589,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeHouseholdContentsInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1734,8 +1734,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeLegalProtectionInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1817,8 +1817,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeResidentialBuildingInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -1979,8 +1979,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeAccidentInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2096,8 +2096,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeTermLifeInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2214,8 +2214,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeIncomeProtectionInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2337,8 +2337,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeOptionalHealthServicesFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2433,8 +2433,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeDeferredHealthInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2515,8 +2515,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeDentalSupplementaryInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2625,8 +2625,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeTravelHealthInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2708,8 +2708,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgePrivateHealthInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2831,8 +2831,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeNursingCareInsuranceFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",
@@ -2956,8 +2956,8 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 		paramName: "hedgeOtherFields",
 		fields: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
+				displayName: "Insurance Company",
+				name: "insurance_company",
 				type: "string",
 				default: "",
 				description: "Contract Partner (Company)",

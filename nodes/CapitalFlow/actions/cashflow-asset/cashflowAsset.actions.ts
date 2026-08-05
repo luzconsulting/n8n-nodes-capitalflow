@@ -86,7 +86,7 @@ const itemFields: INodeProperties[] = [
 		options: ASSET_TYPE_OPTIONS,
 		default: "checking_account",
 	},
-	{ displayName: "Corporation", name: "corporation", type: "string", default: "" },
+	{ displayName: "Insurance Company", name: "insurance_company", type: "string", default: "" },
 	{
 		displayName: "Monthly Payment",
 		name: "monthly_payment",
@@ -147,12 +147,6 @@ export const cashflowAssetFields: INodeProperties[] = [
 				default: "checking_account",
 			},
 			{
-				displayName: "Corporation",
-				name: "corporation",
-				type: "string",
-				default: "",
-			},
-			{
 				displayName: "Description",
 				name: "description",
 				type: "string",
@@ -165,6 +159,12 @@ export const cashflowAssetFields: INodeProperties[] = [
 				type: "options",
 				options: DURATION_OPTIONS,
 				default: "middle",
+			},
+			{
+				displayName: "Insurance Company",
+				name: "insurance_company",
+				type: "string",
+				default: "",
 			},
 			{
 				displayName: "Monthly Payment",

@@ -90,7 +90,7 @@ const itemFields: INodeProperties[] = [
 		options: HEDGE_TYPE_OPTIONS,
 		default: "liability_insurance",
 	},
-	{ displayName: "Corporation", name: "corporation", type: "string", default: "" },
+	{ displayName: "Insurance Company", name: "insurance_company", type: "string", default: "" },
 	{ displayName: "Value", name: "value", type: "number", default: 0 },
 	{
 		displayName: "Payment Cycle",
@@ -138,12 +138,6 @@ export const cashflowHedgeFields: INodeProperties[] = [
 		},
 		options: [
 			{
-				displayName: "Corporation",
-				name: "corporation",
-				type: "string",
-				default: "",
-			},
-			{
 				displayName: "Description",
 				name: "description",
 				type: "string",
@@ -156,6 +150,12 @@ export const cashflowHedgeFields: INodeProperties[] = [
 				type: "options",
 				options: HEDGE_TYPE_OPTIONS,
 				default: "liability_insurance",
+			},
+			{
+				displayName: "Insurance Company",
+				name: "insurance_company",
+				type: "string",
+				default: "",
 			},
 			{ displayName: "Notes", name: "notes", type: "string", default: "" },
 			{
