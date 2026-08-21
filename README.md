@@ -21,10 +21,10 @@ The **CapitalFlow** node covers every operation exposed by the CapitalFlow Publi
 | Cashflow Expenditure | Create, batch create, list, get, update, delete |
 | Cashflow Asset | Create, batch create, list, get, update, delete |
 | Cashflow Hedge | Create, batch create, list, get, update, delete |
-| Contract | Create, list, get, update, delete — across all 26 asset/hedge contract-detail combinations (accounts, pensions, property, and insurance) |
+| Contract | Create, list, get, update, delete — across all 27 asset/hedge contract-detail combinations (accounts, pensions, property, and insurance) |
 | Form | Share customer data form, share cashflow analysis form |
 | Household | Get the household (with members) a customer belongs to |
-| Organization | List members of your organization |
+| Organization | List members of your organization, assign a customer's household to a member |
 
 ### Households
 
@@ -32,7 +32,7 @@ Customers now belong to a household. When creating a customer you can either lea
 
 ### Contract types
 
-The **Contract** resource covers all contract-detail types the API supports, split into a **Category** — asset (checking/savings/call-money accounts, investment accounts, building savings contracts, property, private pension, Rürup, Riester, employer pension schemes, other) or hedge (15 insurance types, e.g. liability, car, household contents, term life, income protection, private/nursing-care health insurance, other) — and a **Contract Type** within that category. The category disambiguates types whose names overlap between the two families (e.g. "Other"). The node exposes exactly the fields relevant to the selected category/type combination — no need to hand-craft JSON payloads for each schema.
+The **Contract** resource covers all contract-detail types the API supports, split into a **Category** — asset (checking/savings/call-money accounts, investment accounts, building savings contracts, property, private pension, Rürup, Riester, employer pension schemes, other) or hedge (16 insurance types, e.g. liability, car, household contents, term life, income protection, disability, private/nursing-care health insurance, other) — and a **Contract Type** within that category. The category disambiguates types whose names overlap between the two families (e.g. "Other"). The node exposes exactly the fields relevant to the selected category/type combination — no need to hand-craft JSON payloads for each schema.
 
 ## Setup
 

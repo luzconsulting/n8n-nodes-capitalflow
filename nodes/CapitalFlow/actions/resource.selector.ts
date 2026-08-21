@@ -31,7 +31,7 @@ export const resourceSelector: INodeProperties = {
 			name: "Contract",
 			value: "contract",
 			description:
-				"Create, list, get, update, and delete contract details for any of the 25 contract types",
+				"Create, list, get, update, and delete contract details for any of the 27 contract types",
 		},
 		{
 			name: "Customer",
@@ -51,7 +51,7 @@ export const resourceSelector: INodeProperties = {
 		{
 			name: "Organization",
 			value: "organization",
-			description: "List members of your organization",
+			description: "List members of your organization, and assign a customer's household to a member",
 		},
 	],
 	default: "customer",
