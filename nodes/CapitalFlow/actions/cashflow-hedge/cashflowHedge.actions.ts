@@ -19,6 +19,7 @@ const HEDGE_TYPE_OPTIONS = [
 	{ name: "Car Insurance", value: "car_insurance" },
 	{ name: "Deferred Health Insurance", value: "deferred_health_insurance" },
 	{ name: "Dental Supplementary Insurance", value: "dental_supplementary_insurance" },
+	{ name: "Disability Insurance", value: "disability_insurance" },
 	{ name: "Household Contents Insurance", value: "household_contents_insurance" },
 	{ name: "Income Protection Insurance", value: "income_protection_insurance" },
 	{ name: "Legal Protection Insurance", value: "legal_protection_insurance" },

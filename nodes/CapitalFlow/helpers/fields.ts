@@ -30,6 +30,11 @@ export const PAYMENT_CYCLE_OPTIONS = [
 	{ name: "Yearly", value: "yearly" },
 ];
 
+export const INCOME_PAYMENT_CYCLE_OPTIONS = [
+	{ name: "Monthly", value: "monthly" },
+	{ name: "Yearly", value: "yearly" },
+];
+
 export const DURATION_OPTIONS = [
 	{ name: "Short", value: "short" },
 	{ name: "Middle", value: "middle" },

@@ -10,7 +10,7 @@ import {
 	cashflowListAndGetFields,
 	cashflowUpdate,
 } from "../../helpers/cashflowCrud";
-import { cleanBody, PAYMENT_CYCLE_OPTIONS } from "../../helpers/fields";
+import { cleanBody, INCOME_PAYMENT_CYCLE_OPTIONS } from "../../helpers/fields";
 
 const RESOURCE = "cashflowIncome";
 
@@ -71,7 +71,7 @@ const itemFields: INodeProperties[] = [
 		displayName: "Payment Cycle",
 		name: "payment_cycle",
 		type: "options",
-		options: PAYMENT_CYCLE_OPTIONS,
+		options: INCOME_PAYMENT_CYCLE_OPTIONS,
 		default: "monthly",
 	},
 ];
@@ -113,7 +113,7 @@ export const cashflowIncomeFields: INodeProperties[] = [
 				displayName: "Payment Cycle",
 				name: "payment_cycle",
 				type: "options",
-				options: PAYMENT_CYCLE_OPTIONS,
+				options: INCOME_PAYMENT_CYCLE_OPTIONS,
 				default: "monthly",
 			},
 			{
