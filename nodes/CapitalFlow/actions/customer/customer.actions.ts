@@ -378,7 +378,7 @@ export const customerFields: INodeProperties[] = [
 				type: "options",
 				options: CAREER_OPTIONS,
 				default: "medium_grade",
-				description: "Laufbahn (for officials)",
+				description: "Career path (for officials)",
 			},
 			{
 				displayName: "Compensation Experience Level",
@@ -690,7 +690,7 @@ export const customerFields: INodeProperties[] = [
 				name: "field_of_study",
 				type: "string",
 				default: "",
-				placeholder: "Wirtschaftsinformatik",
+				placeholder: "Business Information Technology",
 			},
 			{
 				displayName: "Highest Diploma",
@@ -704,7 +704,7 @@ export const customerFields: INodeProperties[] = [
 				name: "trained_in",
 				type: "string",
 				default: "",
-				placeholder: "Informatik",
+				placeholder: "Computer Science",
 			},
 			{
 				displayName: "Vocational Training",
@@ -785,7 +785,7 @@ export const customerFields: INodeProperties[] = [
 				name: "issuing_authority",
 				type: "string",
 				default: "",
-				placeholder: "Stadt Stuttgart",
+				placeholder: "Stuttgart City Hall",
 			},
 			{
 				displayName: "Valid Until",
