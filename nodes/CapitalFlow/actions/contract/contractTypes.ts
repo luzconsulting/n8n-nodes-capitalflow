@@ -28,7 +28,7 @@ export const ASSET_CONTRACT_TYPE_OPTIONS = [
 export const HEDGE_CONTRACT_TYPE_OPTIONS = [
 	{ name: "Accident Insurance", value: "accident_insurance" },
 	{ name: "Car Insurance", value: "car_insurance" },
-	{ name: "Deferred Health Insurance (Anwartschaft)", value: "deferred_health_insurance" },
+	{ name: "Deferred Health Insurance (Deferred Entitlement)", value: "deferred_health_insurance" },
 	{ name: "Dental Supplementary Insurance", value: "dental_supplementary_insurance" },
 	{ name: "Disability Insurance", value: "disability_insurance" },
 	{ name: "Household Contents Insurance", value: "household_contents_insurance" },
@@ -1413,7 +1413,7 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 				displayName: "Modules",
 				name: "modules",
 				type: "multiOptions",
-				options: [{ name: "Children Not Liable for Damages", value: "incapable_children" }, { name: "Courtesy Damages", value: "courtesy_damages" }, { name: "Default on Claims", value: "default_failure" }, { name: "Key Loss", value: "key_loss" }, { name: "Water Damage", value: "water_damage" }],
+				options: [{ name: "Children Not Liable for Damages", value: "incapable_children" }, { name: "Courtesy Damages", value: "courtesy_damages" }, { name: "Default on Claims", value: "default_failure" }, { name: "Drones up to 250g", value: "drones_up_to_250g" }, { name: "Key Loss", value: "key_loss" }, { name: "Key Loss (Job)", value: "key_loss_job" }, { name: "Public Service Liability", value: "public_service_liability" }, { name: "Volunteer Activity", value: "volunteer_activity" }, { name: "Water Damage", value: "water_damage" }],
 				default: [],
 				description: "Included Modules",
 			},
@@ -2597,7 +2597,7 @@ export const CONTRACT_FIELD_GROUPS: ContractFieldGroup[] = [
 				default: "",
 			},
 			{
-				displayName: "Anwartschaft Type",
+				displayName: "Deferred Entitlement Type",
 				name: "anwartschaft_type",
 				type: "options",
 				options: [{ name: "Large Deferred Entitlement", value: "large" }, { name: "Small Deferred Entitlement", value: "small" }],
